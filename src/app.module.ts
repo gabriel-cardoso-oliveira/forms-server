@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { TestsModule } from './tests/tests.module';
 
 import { MongooseModule } from '@nestjs/mongoose';
+import { OptionsModule } from './options/options.module';
 
 @Module({
   imports: [
@@ -11,6 +12,7 @@ import { MongooseModule } from '@nestjs/mongoose';
       'mongodb+srv://db_user:xGZyuYYWkprJ17Yu@cluster0.h9bhi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
     ),
     TestsModule,
+    OptionsModule,
   ],
   controllers: [AppController],
   providers: [AppService],
