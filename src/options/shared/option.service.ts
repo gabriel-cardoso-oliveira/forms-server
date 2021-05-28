@@ -18,9 +18,9 @@ export class OptionService {
   }
 
   async create(option: Option) {
-    const createdTest = new this.optionModel(option);
+    const createdOption = new this.optionModel(option);
 
-    return await createdTest.save();
+    return await createdOption.save();
   }
 
   async update(id: string, option: Option) {
