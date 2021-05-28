@@ -1,0 +1,1 @@
+{"version":3,"file":"question.schema.js","sourceRoot":"","sources":["../../../src/questions/schemas/question.schema.ts"],"names":[],"mappings":";;;AAAA,qCAAqC;AAExB,QAAA,cAAc,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IAChD,WAAW,EAAE,MAAM;IACnB,QAAQ,EAAE,MAAM;CACjB,CAAC,CAAC"}
